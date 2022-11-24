@@ -28,7 +28,7 @@ function App() {
       </div>
       <div id="weatherBox">
         <h1>City:{data.name}</h1>
-        <h2>Tempearature:{(data.main.temp-273)}</h2>
+        <h2>Tempearature:{(data?.main.temp-273)}</h2>
 
       </div>
     </div>
